@@ -27,6 +27,9 @@ if ch == 1:
         if choice == answers[que_index]:
             correct_ans += 1
             print('Correct')
+        else:
+            print('GALAT JAWAB')
+            break
         questions.remove(question)
         i = i + 1
 
